@@ -19,6 +19,8 @@ void main(List<String> args) {
                 Colors.blue,
                 Colors.red,
               ],
+              begin: AlignmentGeometry.topCenter,
+              end: AlignmentGeometry.bottomCenter,
             ),
           ),
           child: Center(
