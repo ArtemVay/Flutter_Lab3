@@ -1,17 +1,21 @@
-# first_flutter_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Лабораторная работа №3. Знакомство с Flutter
+*Ознакомление с основным инструментом кроссплатформенной разработки — Flutter. Создание и запуск первого Flutter-проект*
+## Информация об авторе
+**Имя:** Артём  
+**Группа** ИСП-241
+## Стек и версии
+* Flutter 3.47.4
+* Dart 3.13.3
+* Платформа: Windows
+* IDE: VS Code
+## Скриншот приложения
+![Скриншот приложения](./img/step8_Vainbender.png)
+## Как запустить
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+## Что изучили
+* Что такое Flutter
+* Как написать приложение с нуля
+* Как запустить приложение

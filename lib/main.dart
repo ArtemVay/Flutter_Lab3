@@ -24,7 +24,13 @@ void main(List<String> args) {
             ),
           ),
           child: Center(
-            child: Text("Hello world!"),
+            child: Text(
+              "Hello world!",
+              style: TextStyle(
+                fontSize: 32,
+                color: Colors.white,
+              ),
+            ),
           ),
         ),
       ),
