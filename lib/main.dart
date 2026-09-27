@@ -3,40 +3,48 @@ import 'package:flutter/material.dart';
 void main(List<String> args) {
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: const Color.fromARGB(
-          255,
-          20,
-          125,
-          128,
-        ),
-        body: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.white,
-                Colors.blue,
-                Colors.red,
-              ],
-              begin: AlignmentGeometry.topCenter,
-              end: AlignmentGeometry.bottomCenter,
-            ),
-          ),
-          child: Center(
-            child: Text(
-              "Hello world!",
-              style: TextStyle(
-                fontSize: 32,
-                color: Colors.white,
-              ),
-            ),
-          ),
-        ),
+      home: Text(
+        "Привет! Меня зовут Артём\n"
+        "Я студент группы ИСП-241",
       ),
     ),
   );
 }
+//     MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         backgroundColor: const Color.fromARGB(
+//           255,
+//           20,
+//           125,
+//           128,
+//         ),
+//         body: Container(
+//           decoration: BoxDecoration(
+//             gradient: LinearGradient(
+//               colors: [
+//                 Colors.white,
+//                 Colors.blue,
+//                 Colors.red,
+//               ],
+//               begin: AlignmentGeometry.topCenter,
+//               end: AlignmentGeometry.bottomCenter,
+//             ),
+//           ),
+//           child: Center(
+//             child: Text(
+//               "Hello world!",
+//               style: TextStyle(
+//                 fontSize: 32,
+//                 color: Colors.white,
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     ),
+//   );
+// }
 
 // void main() {
 //   runApp(const MyApp());
