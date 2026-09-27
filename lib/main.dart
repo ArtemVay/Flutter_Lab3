@@ -3,13 +3,25 @@ import 'package:flutter/material.dart';
 void main(List<String> args) {
   runApp(
     MaterialApp(
-      home: Text(
-        "Привет! Меня зовут Артём\n"
-        "Я студент группы ИСП-241",
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Center(
+          child: Image.network(
+            "https://iv.okcdn.ru/getVideoPreview?id=6740638501422&idx=0&type=39&tkn=QuJryUMgBxQKaoZxj1lMmXc5Zao&fn=vid_w",
+          ),
+        ),
       ),
     ),
   );
 }
+//     MaterialApp(
+//       home: Text(
+//         "Привет! Меня зовут Артём\n"
+//         "Я студент группы ИСП-241",
+//       ),
+//     ),
+//   );
+// }
 //     MaterialApp(
 //       debugShowCheckedModeBanner: false,
 //       home: Scaffold(
